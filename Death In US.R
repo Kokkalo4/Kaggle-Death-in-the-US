@@ -15,7 +15,7 @@ library(grid)
 library(gridExtra)
 
 #loading data
-deathdb <- read.csv("c:/users/alex/desktop/r/exercise data/death in US/DeathRecords.csv" , header = TRUE)
+deathdb <- read.csv(".../input/DeathRecords.csv" , header = TRUE)
 
 #basic outline
 str(deathdb)
